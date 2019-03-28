@@ -1,0 +1,21 @@
+.main-title-div {
+  background-color: rgb(18, 116, 18);
+}
+
+.main-title-div a {
+  color: white;
+}
+
+.main-title {
+  margin: 20px 0 20px 0;
+  text-align: center;
+  text-shadow: 0 1px 2px black;
+}
+
+.main-title img {
+  float: left;
+}
+
+.main-content-div {
+  margin-top: 200px;
+}
