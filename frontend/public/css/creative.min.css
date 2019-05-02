@@ -478,7 +478,7 @@ mark {
   max-width: 100%;
   height: auto;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 .img-thumbnail {
   padding: 0.25rem;
@@ -10021,7 +10021,7 @@ header.masthead h1 {
   background: rgba(58, 244, 74, 0.9);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 #portfolio
@@ -10053,5 +10053,9 @@ header.masthead h1 {
 }
 .agradecimento {
   height: 770px;
-  padding-top: 300px;
+  padding-top: 220px;
+}
+
+#membros {
+  margin-top: 50px;
 }
