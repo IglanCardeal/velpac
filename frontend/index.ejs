@@ -13,8 +13,8 @@
         >
           <div class="col-lg-10 align-self-end" id="inicio">
             <img class="company-logo" src="img/V.png" alt="company-logo">
-            <h1 class="text-uppercase text-white font-weight-bold">
-              VELPAC <span style="font-size: 15px; text-shadow: 0 3px 5px black;">&#8482;</span>
+            <h1 class="main__page--title">
+              VELPAC <span style="font-size: 1.5rem; text-shadow: 0 3px 5px black;">&#8482;</span>
             </h1>
             <hr class="divider my-4" />
           </div>
@@ -222,12 +222,12 @@
 
     <br>
     <!-- Equipe de desenvolvimento -->
-    <section class="page-section" id="membros">
+    <section class="page-section bg-dark" id="membros">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card h-100">
-              <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+              <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="Arthur">
               <div class="card-body">
                 <h4 class="card-title">Arthur</h4>
                 <p class="card-text">
@@ -235,49 +235,57 @@
                 </p>
               </div>
               <div class="card-footer">
-                <a href="#" class="btn btn-primary">Saber Mais</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#arthur">
+                  Saber Mais
+                </button>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card h-100">
-            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="Elizabeth">
             <div class="card-body">
               <h4 class="card-title">Elizabeth</h4>
               <p class="card-text">
-                  Cargo do membro
+                Cargo do membro
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Saber Mais</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#elizabeth">
+                Saber Mais
+              </button>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card h-100">
-            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="Marcos">
             <div class="card-body">
               <h4 class="card-title">Marcos</h4>
               <p class="card-text">
-                  Cargo do membro
+                Cargo do membro
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#marcos">
+                Saber Mais
+              </button>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card h-100">
-            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="Iglan Cardeal">
             <div class="card-body">
               <h4 class="card-title">Cardeal</h4>
               <p class="card-text">
-                  Cargo do membro
+                Cargo do membro
               </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Saber Mais</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cardeal">
+                Saber Mais
+              </button>
             </div>
           </div>
         </div>
@@ -319,5 +327,91 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="cardeal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Iglan Cardeal</h5>
+          </div>
+          <div class="modal-body">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <p>
+              texto falando sobre o membro, como curso, funcao, especializacao....
+            </p>
+            <p>
+              Contatos como email, redes sociais
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="arthur" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Arthur</h5>
+          </div>
+          <div class="modal-body">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <p>
+              texto falando sobre o membro, como curso, funcao, especializacao....
+            </p>
+            <p>
+              Contatos como email, redes sociais
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="elizabeth" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Elizabeth</h5>
+          </div>
+          <div class="modal-body">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <p>
+              texto falando sobre o membro, como curso, funcao, especializacao....
+            </p>
+            <p>
+              Contatos como email, redes sociais
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="marcos" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Marcos</h5>
+          </div>
+          <div class="modal-body">
+            <img class="card-img-top" src="img/portfolio/equipe/vader.png" alt="">
+            <p>
+              texto falando sobre o membro, como curso, funcao, especializacao....
+            </p>
+            <p>
+              Contatos como email, redes sociais
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <%- include('./includes/footer.ejs') %>

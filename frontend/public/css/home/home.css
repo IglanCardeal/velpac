@@ -1,0 +1,49 @@
+.main__page--title {
+  color: #fff;
+  text-shadow: 0 2px 15px #fff;
+  font-weight: 600;
+  animation: changeColor 10s infinite 3s;
+  transition: all 2s;
+  font-size: 8rem;
+}
+
+.company-logo {
+  border-radius: 100%;
+  animation: changeLogoColor 10s infinite 3s;
+  transition: all 2s;
+  z-index: 1;
+}
+
+@keyframes changeColor {
+  25% {
+    color: #348021;
+    text-shadow: 0 2px 15px#348021;
+  }
+  50% {
+    color: #e7ff0d;
+    text-shadow: 0 2px 15px #e7ff0d;
+  }
+  75% {
+    color: #eb3705;
+    text-shadow: 0 2px 15px #eb3705;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 2px 15px #fff;
+  }
+}
+
+@keyframes changeLogoColor {
+  25% {
+    background-color: rgba(52, 128, 33, .3);
+  }
+  50% {
+    background-color: rgba(231, 255, 13, .3);
+  }
+  75% {
+    background-color: rgba(235, 55, 5, .3);
+  }
+  100% {
+    background-color: none;
+  }
+}

@@ -94,20 +94,21 @@ body {
       linear,
       left top,
       left bottom,
-      from(rgba(50, 19, 59, 0.3)),
-      to(rgba(50, 19, 59, 0.3))
+      from(rgba(25, 9, 29, 0.6)),
+      to(rgba(25, 9, 29, 0.6))
     ),
     url(../img/main.gif);
   background: linear-gradient(
       to bottom,
-      rgba(50, 19, 59, 0.3) 0,
-      rgba(50, 19, 59, 0.3) 100%
+      rgba(25, 9, 29, 0.6) 0,
+      rgba(25, 9, 29, 0.6) 100%
     ),
     url(../img/main.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  backface-visibility: hidden;
 }
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -6446,7 +6447,7 @@ button.bg-success:hover {
   background-color: #1e7e34 !important;
 }
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: rgb(23, 164, 186) ;
 }
 a.bg-info:focus,
 a.bg-info:hover,
@@ -6482,7 +6483,7 @@ button.bg-light:hover {
   background-color: #dae0e5 !important;
 }
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: rgba(52, 58, 64, .6);
 }
 a.bg-dark:focus,
 a.bg-dark:hover,
@@ -9939,9 +9940,9 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-header.masthead h1 {
+/* header.masthead h1 {
   font-size: 2.25rem;
-}
+} */
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -9950,11 +9951,11 @@ header.masthead h1 {
     padding-bottom: 0;
   }
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 2.15rem;
   }
-  header.masthead h1 {
+  /* header.masthead h1 {
     font-size: 3rem;
-  }
+  } */
 
   /* LOGO DA COMPANIA  */
   .company-logo {
@@ -9971,9 +9972,9 @@ header.masthead h1 {
   }
 }
 @media (min-width: 1200px) {
-  header.masthead h1 {
+  /* header.masthead h1 {
     font-size: 3.5rem;
-  }
+  } */
 }
 
 /* LOGO DA COMPANIA  */
