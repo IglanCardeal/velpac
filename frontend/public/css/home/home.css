@@ -9,7 +9,7 @@
 
 .company-logo {
   border-radius: 50%;
-  animation: changeLogoCol1or 12s infinite 3s;
+  animation: changeLogoColor 12s infinite 3s;
   transition: all 3s;
   z-index: 1;
 }
