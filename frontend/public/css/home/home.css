@@ -1,5 +1,5 @@
 p {
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .main__page--title {
@@ -18,25 +18,15 @@ p {
   z-index: 1;
 }
 
-
 #portfolio img {
   width: 100%;
 }
-
 
 .social-icons {
   margin: 15px;
   text-decoration: none;
   width: 32px;
   height: auto;
-}
-
-@media screen and (max-width: 769px) {
-  .parag img {
-    width: 95vw;
-    height: auto;
-    margin: 0px;
-  }
 }
 
 @keyframes changeColor {
