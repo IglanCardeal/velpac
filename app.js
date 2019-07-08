@@ -28,7 +28,7 @@ app.use(
 
 app.listen(PORT, () => {
   console.log(`
-================== ENV: ${process.env.APP_ENV} ======================
+================== ENV: PRODUCAO ======================
 Servidor ONLINE. Porta: ${PORT}
 `);
 });

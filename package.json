@@ -4,7 +4,8 @@
   "description": "Site da empresa para divulgacao, portifolio de membros e repositorio de relatorios e arquivos do projeto.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --exec babel-node app.js",
+    "start": "babel-node app.js",
+    "dev": "nodemon --exec babel-node app.js",
     "test": "null"
   },
   "author": "Iglan Monteiro de Miranda Cardeal",
