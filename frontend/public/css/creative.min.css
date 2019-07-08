@@ -76,13 +76,13 @@ body {
       from(rgba(25, 9, 29, 0.6)),
       to(rgba(25, 9, 29, 0.6))
     ),
-    url(../img/main.jpg);
+    url(../img/main.webp);
   background: linear-gradient(
       to bottom,
       rgba(25, 9, 29, 0.6) 0,
       rgba(25, 9, 29, 0.6) 100%
     ),
-    url(../img/main.jpg);
+    url(../img/main.webp);
   background-position: center;
   background-origin: center;
   background-repeat: no-repeat;
