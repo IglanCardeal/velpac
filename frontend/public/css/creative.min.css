@@ -77,19 +77,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  /* background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(92, 77, 66, 0.1)),
-      to(rgba(92, 77, 66, 0.1))
-    ),
-    url(../img/main.gif);
-  background: linear-gradient(
-      to bottom,
-      rgba(92, 77, 66, 0.1) 0,
-      rgba(92, 77, 66, 0.1) 100%
-    ), */
     background: -webkit-gradient(
       linear,
       left top,
@@ -97,13 +84,13 @@ body {
       from(rgba(25, 9, 29, 0.6)),
       to(rgba(25, 9, 29, 0.6))
     ),
-    url(../img/main.gif);
+    url(../img/main.jpg);
   background: linear-gradient(
       to bottom,
       rgba(25, 9, 29, 0.6) 0,
       rgba(25, 9, 29, 0.6) 100%
     ),
-    url(../img/main.gif);
+    url(../img/main.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9921,20 +9908,6 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  /* background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(92, 77, 66, 0.4)),
-      to(rgba(92, 77, 66, 0.4))
-    ),
-    url(../img/main.gif);
-  background: linear-gradient(
-      to bottom,
-      rgba(92, 77, 66, 0.4) 0,
-      rgba(92, 77, 66, 0.4) 100%
-    ),
-    url(../img/main.gif); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10019,7 +9992,7 @@ header.masthead {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(58, 244, 74, 0.9);
+  background: rgba(58, 244, 74, 0.4);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   border-radius: 0%;
@@ -10045,7 +10018,8 @@ header.masthead {
   font-size: 1.2rem;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
-  opacity: .5;
+  opacity: 1;
+  color: white;
 }
 .bg-rodape {
   font-size: 1.1rem;

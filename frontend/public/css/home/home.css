@@ -1,9 +1,13 @@
+p {
+  letter-spacing: .05em;
+}
+
 .main__page--title {
   color: #fff;
-  text-shadow: 0 2px 15px #fff;
+  text-shadow: none;
   font-weight: 600;
   animation: changeColor 12s infinite 3s;
-  transition: all 3s;
+  /* transition: all 3s; */
   font-size: 8rem;
 }
 
@@ -14,22 +18,39 @@
   z-index: 1;
 }
 
+
+#portfolio img {
+  width: 100%;
+}
+
+
+.social-icons {
+  margin: 15px;
+  text-decoration: none;
+  width: 32px;
+  height: auto;
+}
+
+@media screen and (max-width: 769px) {
+  .parag img {
+    width: 95vw;
+    height: auto;
+    margin: 0px;
+  }
+}
+
 @keyframes changeColor {
   25% {
-    color: #348021;
-    text-shadow: 0 2px 15px#348021;
+    text-shadow: 0 5px 10px green;
   }
   50% {
-    color: #e7ff0d;
-    text-shadow: 0 2px 15px #e7ff0d;
+    text-shadow: 0 5px 10px yellow;
   }
   75% {
-    color: #eb3705;
-    text-shadow: 0 2px 15px #eb3705;
+    text-shadow: 0 5px 10px red;
   }
   100% {
-    color: #fff;
-    text-shadow: 0 2px 15px #fff;
+    text-shadow: none;
   }
 }
 
