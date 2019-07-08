@@ -1,7 +1,7 @@
 const PORT = process.env.PORT || 3000;
 
-import express from "express";
-import path from "path";
+const express = require("express");
+const path = require("path");
 
 const app = express();
 const router = express.Router();
@@ -29,4 +29,3 @@ app.listen(PORT, () => {
 Servidor ONLINE. Porta: ${PORT}
 `);
 });
-
