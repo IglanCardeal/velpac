@@ -1,13 +1,3 @@
-/*!
- * Start Bootstrap - Creative v5.1.4 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */ /*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -47,6 +37,8 @@
 ::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   font-family: sans-serif;
@@ -68,8 +60,8 @@ section {
 }
 body {
   margin: 0;
-  font-family:  'Signika' ,Merriweather, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  font-family: "Signika", Merriweather, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.3rem;
   font-weight: 400;
@@ -77,25 +69,29 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-    background: -webkit-gradient(
+  background: -webkit-gradient(
       linear,
       left top,
       left bottom,
       from(rgba(25, 9, 29, 0.6)),
       to(rgba(25, 9, 29, 0.6))
     ),
-    url(../img/main.jpg);
+    url(../img/main.webp);
   background: linear-gradient(
       to bottom,
       rgba(25, 9, 29, 0.6) 0,
       rgba(25, 9, 29, 0.6) 100%
     ),
-    url(../img/main.jpg);
+    url(../img/main.webp);
   background-position: center;
+  background-origin: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   backface-visibility: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -6434,7 +6430,7 @@ button.bg-success:hover {
   background-color: #1e7e34 !important;
 }
 .bg-info {
-  background-color: rgb(23, 164, 186) ;
+  background-color: rgb(23, 164, 186);
 }
 a.bg-info:focus,
 a.bg-info:hover,
@@ -6470,7 +6466,7 @@ button.bg-light:hover {
   background-color: #dae0e5 !important;
 }
 .bg-dark {
-  background-color: rgba(52, 58, 64, .6);
+  background-color: rgba(52, 58, 64, 0.6);
 }
 a.bg-dark:focus,
 a.bg-dark:hover,
