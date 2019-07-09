@@ -29,6 +29,14 @@ p {
   height: auto;
 }
 
+.img-fluid {
+  box-shadow: 0 10px 10px rgba(15, 100, 48, .7);
+}
+
+.company-logo {
+  box-shadow: none;
+}
+
 @keyframes changeColor {
   25% {
     text-shadow: 0 5px 10px green;

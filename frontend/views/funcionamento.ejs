@@ -10,7 +10,7 @@
           O gerenciamento do tempo de semáforo se dar através de um interface de usuário em uma aplicação web (site de gerenciamento de semáforos da velpac - SGS) onde, apos o administrador se autenticar ele tera acesso ao sistema onde sera possível determinar o tempo das rotinas, cadastrar um semáforo, editar tempo limites de rotinas e adicionar novos administradores ao sistema.
         </p>
         <p>
-          Para demonstrar melhor, foi criado um protótipo em escala reduzida, onde temos uma maquete que representa um cruzamento de uma via com uma faixa de pedestre. Logo a seguir, tem disponibilizado imagens e especificações do componentes usados no projeto.
+          Para demonstrar melhor, foi criado um protótipo em escala reduzida, onde temos uma maquete que representa um cruzamento de uma via com uma faixa de pedestre. Foi utilizado a plataforma de prototipagem eletrônica de hardware livre <a href="http://www.arduino.cc" style="text-decoration: none">Arduino</a>, com auxilio de componentes eletrônicos como jumpers, resistores, buzz sonoro, módulo de bluetooth para acionamento de botão acessível de pedestres e leds para montagem do protótipo, além da IDE do Arduino para exibição de informações relevantes e carregamento do código da aplicação, sendo que este código estará disponível para download. Logo a seguir, tem disponibilizado imagens e especificações do componentes usados no projeto.
         </p>
       </div>
     </div>
@@ -22,24 +22,123 @@
       </div>
       <div class="col-md-6 text-justify">
         <p>
-          ***O avanço na informatização e a automação de controle, trazem
-          evoluções nos métodos tradicionais utilizados atualmente. O A
-          elaboração de sistema de controle computadorizado centralizado, no
-          qual um programa comanda diretamente o planejamento dos semáforos,
-          por meio de pré programação, indicando a cada instante qual a
-          situação luminosa que deve ocorrer. Esta é a tecnologia oferecida
-          nos serviços da <em>Velpac</em>, onde através de uma interface web
-          (site) gerenciada por administradores, sera feita o controle e o
-          gerenciamento dos tempos de cada semáforo conectado ao sistema,
-          permitindo assim a melhor rotina para atender a demanda de trafego
-          de veiculos e pedestres, otimizando o fluxo de transito de acordo
-          com a necessidade do momento.
+          Esta é a aplicação web que permite determinar as rotinas do semáforo, neste caso, as rotinas de tempo para os semáforos de pedestres e carros. Para acessar o sistema, basta informar o CPF e senha do usuário/administrador cadastrado. Neste site gerenciador, temos apenas administrador cadastrado para demonstrar o funcionamento e para acessar o sistema, podemos realizar o login informando o cpf <em>12345678900</em> e a senha <em>123</em>.
         </p>
       </div>
       <div class="col-md-6 col-sm-12 col-xs-12 text-center">
         <img
           class="img-fluid mb-3 border border-info rounded"
-          src="img/general/sem-problema.jpg"
+          src="img/projeto/sgs.webp"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center py-3">
+          Entrei no sistema, e agora...?
+        </h2>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <img
+          class="img-fluid mb-3 border border-info rounded"
+          src="img/projeto/sema-sgs.png"
+        />
+      </div>
+      <div class="col-md-12 text-justify">
+        <p>
+          Será exibido uma tabela com todos os semáforos cadastrados no sistema pelo administrador. As informações relevantes sobre o semáforo consistem de: <br>
+          <ul>
+            <li>
+              <p>
+                <b>Endereço:</b> onde este semáforo está localizado na cidade.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Editar rotina:</b> um botão que irá abrir um modal onde poderá ser definida uma rotina para o semáforo com tempo para o sinal verde de pedestres e carros. O tempo deve ser informado em segundos.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Definir limites:</b> como administrador, tempo máximos e minimos poderão ser definidos para que sejam obedecidos pelos usuários quando estes forem alterar uma rotina.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Rotina atual:</b> verificar qual a última rotina definida para os semáforos.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>última alteração:</b> verificar o nome do usuário ou administrador que definiu a última rotina. Uma data da modificação tambem será informada.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>Porta serial:</b> endereço da porta serial que permite estabelecer a comunicação do servidor com o arduino.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center py-3">
+          Quero alterar uma rotina
+        </h2>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+        <img
+          class="img-fluid mb-3 border border-info rounded"
+          src="img/projeto/definir-sgs.png"
+        />
+      </div>
+      <div class="col-md-6 text-justify">
+        <p>
+          Aperte o botão <em>Definir</em> e após abrir a jenela de modal, defina a rotina desejada e clique em <em>Atualizar</em>. Neste exemplo vamos definir 40 segundos para carros e 20 segundos para pedestres.
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+          <img
+            class="img-fluid mb-3 border border-info rounded"
+            src="img/projeto/confir-sgs.png"
+          />
+        </div>
+        <div class="col-md-6 text-justify">
+          <p>
+            Se tudo ocorrer com sucesso, uma mensagem será exibida e a janela de modal será fechada.
+          </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12 text-justify">
+        <p>
+         Agora no terminal da IDE do Arduino, será exibida uma mensagem informando que o Arduino recebeu as informações do servidor e as rotinas serão aplicadas dentro de alguns instantes.
+        </p>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <img
+          class="img-fluid mb-3 border border-info rounded"
+          src="img/projeto/terminal-arduino.png"
+        />
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="text-center py-3">
+          A arquitetura da VELPAC
+        </h2>
+      </div>
+      <div class="col-md-12 text-justify">
+        <p>
+          Através do site gerenciador, ao submeter uma nova rotina, os dados serão enviados para o servidor da <em>VELPAC</em> que fica responsável por validar os dados e estabelecer a comunicação com o Arduino. Se tudo ocorrer como esperado, os dados serão enviados em formato de string com a seguinte estrutura: <b>"[tempo para os carros]|[tempo para os pedestres]"</b>. No nosso exemplo, quando enviamos o tempo de 40 segundos para carros e 20 segundos para pedestres, o Arduino receberá a string "40|20" e o código do mesmo está configurado para detectar o recebimento destes dados do servidor e realizar as tratativas para aplicar os tempos no semáforo.
+        </p>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <img
+          class="img-fluid mb-3 border border-info rounded"
+          src="img/projeto/arquit-sgs.jpg"
         />
       </div>
     </div>
