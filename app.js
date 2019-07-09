@@ -23,6 +23,13 @@ app.use(
   })
 );
 
+app.use(
+  router.get("/img/projeto", (req, res) => {
+    const path = __dirname + "/frontend/public/img/projeto/projeto.zip";
+    res.sendFile(path);
+  })
+);
+
 app.listen(PORT, () => {
   console.log(`
 ================== ENV: PRODUCAO ======================
