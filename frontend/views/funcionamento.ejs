@@ -70,7 +70,7 @@
             </li>
             <li>
               <p>
-                <b>última alteração:</b> verificar o nome do usuário ou administrador que definiu a última rotina. Uma data da modificação tambem será informada.
+                <b>última alteração:</b> verificar o nome do usuário ou administrador que definiu a última rotina. Uma data da modificação também será informada.
               </p>
             </li>
             <li>
@@ -142,5 +142,28 @@
         />
       </div>
     </div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="text-center py-3">
+          Simulação e Resultados
+        </h2>
+      </div>
+      <div class="col-md-12 text-justify">
+        <p>
+          Foi realizada uma simulação para demonstrar na prática a aplicação tendo efeitos no semáforo. Com o Arduino montado e os componentes do circuito inseridos na protoboard, conectado ao computador via porta serial, foi exibida a interface wew, na página de administração, foi definidos os tempos de teste para observarmos os efeitos no protótipo. Intervalos curtos de 4 segundos e 2 segundos e 40 segundos e 20 segundos para dinamizar os efeitos da gerência do semáforo. <br>
+          Na simulação, temos um buzzer para favorecer a acessibilidade para deficientes, onde quando o semáforo para pedestres estiver fechado (vermelho pedestre aceso), o buzzer não emite som algum. Quando o semáforo estiver aberto para os pedestres (verde pedestre aceso), o buzzer irá emitir um bip intervalado, indicando que o sinal está aberto. Quando o semáforo estiver em estado de atenção (vermelho pedestre piscando), o buzzer irá emitir um bip continuo, indicando uma eminência de que o semáforo de pedestre irá fechar. <br>
+          Nesta simulação, a via teórica onde o semáforo se encontra, possui um limite máximo de 40km/h, logo foi definido um tempo de alerta para os carros (semáforo amarelo) padrão de 3 segundos, e este valor não muda com alteração de rotina dos semáforos. Para os pedestres, o tempo de semáforo em alerta (vermelho pedestre piscando), foi definido o tempo padrão de 5 segundos e este valor também não muda com possível alteração de rotina dos semáforos. <br>
+          A alterção de estado de vermelho para carros e verde para pedestres, não ocorre instantaneamente. Quando o sinal de carros fecha, o sinal verde de pedestre demora 1 segundo para abrir. A alteração de estado de vermelho para pedestre e verde para carros também não ocorre de imediato, pois o sinal de carros irá demorar 1,5 segundos para abrir depois do de pedestres fechar. Estes atrasos de mudança de estado são intencionais nesta simulação para efeitos de segurança pública. <br>
+          Abaixo, segue um vídeo mostrando a simulação.
+        </p>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <div class="simulacao-video embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/yXSAiS25zFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </section>

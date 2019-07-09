@@ -29,8 +29,13 @@ p {
   height: auto;
 }
 
-.img-fluid {
-  box-shadow: 0 10px 10px rgba(15, 100, 48, .7);
+.img-fluid,
+.simulacao-video {
+  box-shadow: 0 10px 10px rgba(15, 100, 48, 0.7);
+}
+
+.simulacao-video {
+  border-bottom: 5px solid rgb(15, 100, 48);
 }
 
 .company-logo {
