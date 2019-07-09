@@ -30,9 +30,22 @@ app.use(
   })
 );
 
+app.use(
+  router.get("/img/arduino", (req, res) => {
+    const path = __dirname + "/frontend/public/img/projeto/arduino-code-prototype.zip";
+    res.sendFile(path);
+  })
+);
+
+app.use((req, res) => {
+  res.redirect('/');
+})
+
 app.listen(PORT, () => {
   console.log(`
 ================== ENV: PRODUCAO ======================
 Servidor ONLINE. Porta: ${PORT}
 `);
 });
+
+// sudo chmod a+rw /dev/ttyUSB0 
