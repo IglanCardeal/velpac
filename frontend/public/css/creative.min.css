@@ -9963,7 +9963,7 @@ header.masthead {
 }
 
 #portfolio .container-fluid {
-  max-width: 1920px;
+  max-width: 65vw;
 }
 #portfolio .container-fluid .portfolio-box {
   position: relative;
@@ -9993,7 +9993,7 @@ header.masthead {
   background: rgba(58, 244, 74, 0.4);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
-  border-radius: 0%;
+  border-radius: 50%;
 }
 
 #portfolio
@@ -10019,6 +10019,11 @@ header.masthead {
   opacity: 1;
   color: white;
 }
+
+.project-img {
+  border-radius: 50%;
+}
+
 .bg-rodape {
   font-size: 1.1rem;
   box-shadow: none;
