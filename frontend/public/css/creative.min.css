@@ -10038,3 +10038,9 @@ header.masthead {
 #membros {
   margin-top: 50px;
 }
+
+@media (max-width: 600px) {
+  body {
+    background: rgb(2, 39, 30);
+  }
+}
