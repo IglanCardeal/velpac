@@ -109,6 +109,7 @@
     <%- include('./partials/modal.ejs') %>
 
     <!-- Bootstrap core JavaScript -->
+<<<<<<< HEAD
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
@@ -122,6 +123,21 @@
       document.onload = () =>  {
         $("#data-ano-atual").text(new Date().getFullYear())
       };
+=======
+    <script src="vendor/jquery/jquery.min.js" defer></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js" defer></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js" defer></script>
+    <script defer>
+      document.onload = () => {
+        $("#data-ano-atual").text(new Date().getFullYear());
+      }
+>>>>>>> dev
     </script>
   </body>
 </html>
