@@ -4,8 +4,8 @@
   "description": "Site da empresa para divulgacao, portifolio de membros e repositorio de relatorios e arquivos do projeto.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon app.js",
     "test": "null"
   },
   "author": "Iglan Monteiro de Miranda Cardeal",

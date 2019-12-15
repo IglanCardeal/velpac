@@ -43,7 +43,7 @@ app.use((req, res) => {
 
 app.listen(PORT, () => {
   console.log(`
-================== ENV: PRODUCAO ======================
+================== ENV: ${process.env.NODE_ENV} ======================
 Servidor ONLINE. Porta: ${PORT}
 `);
 });
