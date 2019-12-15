@@ -32,6 +32,17 @@
     <link href="css/creative.min.css" rel="stylesheet" />
 
     <link href="css/home/home.css" rel="stylesheet" />
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js" defer></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js" defer></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js" defer></script>
   </head>
 
   <body data-spy="scroll" data-target="#mainNav" id="page-top">
@@ -98,17 +109,19 @@
     <%- include('./partials/modal.ejs') %>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+    <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
-    <script>
-      $("#data-ano-atual").text(new Date().getFullYear());
+    <!-- <script src="js/creative.min.js"></script> -->
+    <script defer>
+      document.onload = () =>  {
+        $("#data-ano-atual").text(new Date().getFullYear())
+      };
     </script>
   </body>
 </html>
