@@ -1,6 +1,8 @@
 const PORT = process.env.PORT || 3000;
 
 const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
 const path = require('path');
 
 const app = express();
@@ -8,6 +10,11 @@ const router = express.Router();
 
 app.set('view engine', 'ejs');
 app.set('views', './frontend/');
+
+app.use(helmet());
+app.use(cors({
+  origin: true
+}));
 
 app.use(express.static(path.join(__dirname, 'frontend', 'public')));
 
