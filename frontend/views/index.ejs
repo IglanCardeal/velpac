@@ -11,6 +11,7 @@
       content="Sistema de gerenciamento de tempo de semáforos de trânsito."
     />
     <meta name="author" content="Iglan Monteiro de Miranda Cardeal" />
+    <meta name="keyword" content="Arduino, NodeJS, Javascript, Bootstrap">
 
     <link
       rel="shortcut icon"
@@ -111,7 +112,9 @@
 
     <script>
       lazyload();
-      
+
+      console.log(new Date().getFullYear());
+
       window.onload = () => {
         $('#data-ano-atual').text(new Date().getFullYear());
       };
