@@ -11,7 +11,7 @@
   "author": "Iglan Monteiro de Miranda Cardeal",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
     "cors": "^2.8.5",
