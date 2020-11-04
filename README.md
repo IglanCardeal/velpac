@@ -35,7 +35,7 @@
 - [Autor](#autor)
 <!--te-->
 
-### Sobre
+### Sobre :coffee:
 
 <p id="sobre"></p>
 
