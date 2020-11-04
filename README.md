@@ -15,10 +15,9 @@
 
 </div>
 
----------------------
+---
 
 :computer: **<a target="_blank" href="https://velpac.herokuapp.com/">Veja o site online aqui</a>**
-
 
 # Tabela de conteúdos
 
@@ -32,7 +31,8 @@
 - [Contato](#contato)
 <!--te-->
 
-### Sobre {#sobre}
+### Sobre 
+<p id="sobre"></p>
 
 Este site realiza a divulgação do projeto desenvolvido para gerenciar semáforos. Este projeto fez parte da avaliação de disciplina _Circuitos Elétricos_, onde foi usado uma aplicação feita usando NodeJS e Arduino para controlar, através de uma interface web, o tempo de um semáforo de uma avenida e uma faixa de pedestre.
 Neste site, foi demonstrado o propósito do projeto:
