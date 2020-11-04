@@ -55,11 +55,13 @@ Neste site, foi demonstrado o propósito do projeto:
 - contato da empresa(pseudo contato) e da equipe(contato real dos integrantes);
 
 ### Onde está? :rocket:
+
 <p id="host"></p>
 
-Este site está hospedado na plataforma [Heroku](https://dashboard.heroku.com/) de forma gratuita. A plataforma usa a branch `master` deste projeto para realizar o deploy da aplicação, ou seja, qualquer alteração nesta branch irá refletir na aplicação em produção.
+Este site está hospedado na plataforma [Heroku](https://dashboard.heroku.com) de forma gratuita. A plataforma usa a branch `master` deste projeto para realizar o deploy da aplicação, ou seja, qualquer alteração nesta branch irá refletir na aplicação em produção.
 
 ### Como usar localmente? :pushpin:
+
 <p id="como-usar"></p>
 
 Para usar localmente em sua máquina, voce deve ter instalado em sua máquina o [NodeJS](https://nodejs.org/en/) com uma versão minima recomendada `v12.0.0` e o [Git](https://git-scm.com).
@@ -113,9 +115,8 @@ Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicia
 <a href="https://blog.rocketseat.com.br/author/thiago/">
  <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/37749943?s=460&u=70f3bf022f3a0f28c332b1aa984510910818ef02&v=4" width="100px;" alt="iglan cardeal"/>
 
- <b>Iglan Cardeal</b>
+<b>Iglan Cardeal</b>
 </a>
-
 
 Desenvolvido e mantido por Iglan Cardeal :hammer:
 Desenvolvedor NodeJS 💻
