@@ -30,7 +30,7 @@
 - [Sobre](#sobre)
 - [Onde está hospedada](#host)
 - [Como usar localmente](#como-usar)
-  - [Pré Requisitos](#pre-requisitos)
+  - [Pré Requisitos](#como-usar)
 - [Tecnologias](#tecnologias)
 - [Autor](#autor)
 <!--te-->
@@ -55,11 +55,12 @@ Neste site, foi demonstrado o propósito do projeto:
 - contato da empresa(pseudo contato) e da equipe(contato real dos integrantes);
 
 ### Onde está? :rocket:
-
 <p id="host"></p>
+
 Este site está hospedado na plataforma [Heroku](https://dashboard.heroku.com/) de forma gratuita. A plataforma usa a branch `master` deste projeto para realizar o deploy da aplicação, ou seja, qualquer alteração nesta branch irá refletir na aplicação em produção.
 
 ### Como usar localmente? :pushpin:
+<p id="como-usar"></p>
 
 Para usar localmente em sua máquina, voce deve ter instalado em sua máquina o [NodeJS](https://nodejs.org/en/) com uma versão minima recomendada `v12.0.0` e o [Git](https://git-scm.com).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
@@ -95,7 +96,7 @@ Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicia
 
 ### Quais tecnologias foram usadas? :wrench:
 
-<p id="como-usar"></p>
+<p id="tecnologias"></p>
 
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/) (Framework web)
