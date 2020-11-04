@@ -15,9 +15,10 @@
 
 </div>
 
----
+---------------------
 
-[ :computer: **Veja o site online aqui**](https://velpac.herokuapp.com/)
+:computer: **<a target="_blank" href="https://velpac.herokuapp.com/">Veja o site online aqui</a>**
+
 
 # Tabela de conteúdos
 
