@@ -112,11 +112,9 @@ Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicia
 
 <p id="autor"></p>
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
  <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/37749943?s=460&u=70f3bf022f3a0f28c332b1aa984510910818ef02&v=4" width="100px;" alt="iglan cardeal"/>
 
 <b>Iglan Cardeal</b>
-</a>
 
 Desenvolvido e mantido por Iglan Cardeal :hammer:
 Desenvolvedor NodeJS 💻 <br>
