@@ -121,5 +121,5 @@ Desenvolvedor NodeJS 💻 <br>
 Entre em contato! 👋🏽
 
 - cmtcardeal@outlook.com :email:
-- Instagram [@cmtcardeal](https://www.instagram.com/cmtecardeal/)
+- Instagram [@cmtecardeal](https://www.instagram.com/cmtecardeal/)
 - StackOverflow [Cmte Cardeal](https://pt.stackoverflow.com/users/95771/cmte-cardeal?tab=profile)
