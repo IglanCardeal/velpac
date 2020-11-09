@@ -35,9 +35,9 @@
 - [Autor](#autor)
 <!--te-->
 
-### Sobre :coffee:
-
 <p id="sobre"></p>
+
+### Sobre :coffee:
 
 ![tela-inicial](./frontend/public/img/inicial.png)
 
@@ -54,15 +54,15 @@ Neste site, foi demonstrado o propósito do projeto:
 - a equipe envolvida no projeto;
 - contato da empresa(pseudo contato) e da equipe(contato real dos integrantes);
 
-### Onde está? :rocket:
-
 <p id="host"></p>
+
+### Onde está? :rocket:
 
 Este site está hospedado na plataforma [Heroku](https://dashboard.heroku.com) de forma gratuita. A plataforma usa a branch `master` deste projeto para realizar o deploy da aplicação, ou seja, qualquer alteração nesta branch irá refletir na aplicação em produção.
 
-### Como usar localmente? :pushpin:
-
 <p id="como-usar"></p>
+
+### Como usar localmente? :pushpin:
 
 Para usar localmente em sua máquina, voce deve ter instalado em sua máquina o [NodeJS](https://nodejs.org/en/) com uma versão minima recomendada `v12.0.0` e o [Git](https://git-scm.com).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
@@ -96,9 +96,9 @@ $ yarn dev
 
 Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicial do projeto.
 
-### Quais tecnologias foram usadas? :wrench:
-
 <p id="tecnologias"></p>
+
+### Quais tecnologias foram usadas? :wrench:
 
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/) (Framework web)
@@ -108,9 +108,9 @@ Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicia
 - [Git](https://git-scm.com)
 - [VSCode](https://code.visualstudio.com/)
 
-### Autor
-
 <p id="autor"></p>
+
+### Autor
 
  <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/37749943?s=460&u=70f3bf022f3a0f28c332b1aa984510910818ef02&v=4" width="100px;" alt="iglan cardeal"/>
 
