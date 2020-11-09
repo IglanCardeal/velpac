@@ -117,7 +117,9 @@ Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicia
 <b>Iglan Cardeal</b>
 
 Desenvolvido e mantido por Iglan Cardeal :hammer:
-Desenvolvedor NodeJS 💻 <br>
+
+Desenvolvedor NodeJS 💻
+
 Entre em contato! 👋🏽
 
 - cmtcardeal@outlook.com :email:
