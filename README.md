@@ -32,6 +32,7 @@
 - [Como usar localmente](#como-usar)
   - [Pré Requisitos](#como-usar)
 - [Tecnologias](#tecnologias)
+- [Performance no PageSpeed](#pagespeed)
 - [Autor](#autor)
 <!--te-->
 
@@ -107,6 +108,20 @@ Agora abra seu navegador na URL `http://localhost:3000` e verá a página inicia
 - [Bootstrap](https://getbootstrap.com/) (Framework CSS)
 - [Git](https://git-scm.com)
 - [VSCode](https://code.visualstudio.com/)
+
+<p id="pagespeed"></p>
+
+### Performance da aplicação no [PageSpeed](https://developers.google.com/speed/pagespeed/insights/?hl=pt-br)
+
+Este site foi otimizado por mim para ter a melhor experiência possível de carregamento da página. Implementei lazyload para imagens e para o iframe do youtube. Compactei as imagens. Removi CSS e fonte não utilizado. Coloquei CSS inline, ou seja, não precisa baixar um arquivo CSS. Todos esses procedimentos resultaram em uma ótima pontuação no PageSpeed. Veja abaixo os resultados para cada plataforma.
+
+- Mobile
+
+  ![mobile performance](./frontend/public/img/ps-mobile.png)
+
+- Desktop
+
+  ![desktop performance](./frontend/public/img/ps-desktop.png)
 
 <p id="autor"></p>
 
