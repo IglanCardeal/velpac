@@ -36,6 +36,8 @@
 - [Autor](#autor)
 <!--te-->
 
+<div align="justify">
+
 <p id="sobre"></p>
 
 ### Sobre :coffee:
@@ -140,3 +142,5 @@ Entre em contato! 👋🏽
 - cmtcardeal@outlook.com :email:
 - Instagram [@cmtecardeal](https://www.instagram.com/cmtecardeal/)
 - StackOverflow [Cmte Cardeal](https://pt.stackoverflow.com/users/95771/cmte-cardeal?tab=profile)
+
+</div>
