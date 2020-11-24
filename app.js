@@ -54,5 +54,6 @@ app.listen(PORT, () => {
   console.log(`
 ================== ENV: ${process.env.NODE_ENV} ======================
 Servidor ONLINE. Porta: ${PORT}
+http://localhost:${PORT}
 `);
 });

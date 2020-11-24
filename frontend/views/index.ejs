@@ -22,7 +22,20 @@
 
     <title>VELPAC</title>
 
-    <%- include('./partials/css.ejs') %>    
+    <%- include('./partials/css.ejs') %>
+
+    <style>
+      img[data-src] {
+        opacity: 0;
+      }
+
+      img {
+        -webkit-transition: opacity 0.5s linear 0.2s;
+        -moz-transition: opacity 0.5s linear 0.2s;
+        transition: opacity 0.5s linear 0.2s;
+        opacity: 1;
+      }
+    </style>
   </head>
 
   <body data-spy="scroll" data-target="#mainNav" id="page-top">
@@ -101,6 +114,15 @@
 
     <script>
       lazyload();
+      [].forEach.call(
+        document.querySelectorAll('img[data-src]'),
+        function (img) {
+          img.setAttribute('src', img.getAttribute('data-src'));
+          img.onload = function () {
+            img.removeAttribute('data-src');
+          };
+        },
+      );
 
       window.onload = () => {
         $('#data-ano-atual').text(new Date().getFullYear());
